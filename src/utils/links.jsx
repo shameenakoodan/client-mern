@@ -28,4 +28,4 @@ const links = [
     },
 ]
 
-export default links
+export default links;
