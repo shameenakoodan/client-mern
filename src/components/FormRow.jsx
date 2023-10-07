@@ -1,5 +1,5 @@
 
-const FormRow = ({type,name,labelText,defaulValue}) => {
+const FormRow = ({type,labelText,defaultValue}) => {
   return (
     <div className="form-row">
           <label htmlFor={name} className="form-label">
@@ -10,7 +10,7 @@ const FormRow = ({type,name,labelText,defaulValue}) => {
             id={name}
             name={name}
             className="form-input"
-            defaultValue={defaulValue || ''}
+            defaultValue={defaultValue || ''}
             required
           ></input>
         </div>
